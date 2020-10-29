@@ -1,0 +1,143 @@
+body {
+    margin-bottom:0;
+    padding:0;
+    font-family: montserrat;
+    background-color:#6396a8;
+}
+
+h1{
+    font-family: montserrat-black;
+    font-weight: bold;
+    line-height:1.5;
+}
+p{
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
+
+/* nav-bar */
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2rem;
+}
+
+
+
+/* title-section */
+.container-fluid {
+    padding: 3% 10%;
+}
+
+#title {
+    background-color:#6396a8;
+    font-family: montserrat-black;
+    color: #fff;
+    font-size:1rem;
+
+}
+.big-heading {
+    
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+
+
+
+.title-image {
+    width: 100%;
+   
+    
+}
+
+
+
+
+/* feature-section */
+#introduction{
+
+    padding: 4% 10% 7%;
+    background-color: #fff;
+    
+}
+
+
+
+
+
+
+/* testimonials-section */
+#working {padding: 4% 10% 7%;
+    background-color:#6396a8; 
+    text-align:left;
+
+    color: #fff;
+}
+
+#libraries{
+    background-color:#fff;
+
+    padding: 4% 10% 7%;
+}
+.bokeh{
+    margin-bottom: 5%;
+}
+.bokeh-image{
+    
+    width:20%;
+    float:right;
+    
+    
+}
+
+
+@media screen and (max-width:800px){
+    .bokeh-image{
+        width:30%;
+    }
+    .pandas-image{
+        width:30%;
+    }
+}
+
+
+
+.pandas{
+    clear:both;
+    text-align: left;
+    margin-bottom: 5%;
+
+}
+
+.pandas-image{
+    width:15%;
+    float:right;
+    
+}
+#footer{
+    text-align: center;
+    background-color:#6396a8; 
+    margin:0;
+}
+.contact{
+    color:white;
+    padding:1%;
+}
+.contact:hover{
+    color:blue;
+}
+
+
+
+/* Press-section */

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>visualization</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  
+  <script src="https://kit.fontawesome.com/28c4571892.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-dark  navbar-expand-lg">
+        <a class="navbar-brand" href="">ITM GOI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#introduction">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#working">working</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#libraries">libraries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="#footer">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Real time data visualization in python</h1>
+          
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="https://miro.medium.com/max/3840/1*g__jiesLRIfCRefVG69Pfw.gif" alt="dashboard image">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="introduction">
+<h1>Introduction</h1>
+<h3>What is Real-Time?</h3>
+<p>Real-Time is the phrase used to describe the time in which a particular action, or event, occurs. Most things we do happen in real time. When talking about computer systems, real-time refers to processing that occurs at the same time as it would in the real world. For example, a real-time operating system processes events as quickly as they occur.</p>
+  <br>
+<p>For another example, think about computer simulations or games. Real-time means that things happen in the same time frame as they would in real life. Words are spoken at the same rate, objects are moved at the same speed, and you walk at the same pace.</p>  
+<h3>What is Data Visualization?</h3> 
+<p>Data Visualization is a process that focuses on what you see. In particular, it represents visual information so that it can be quickly/easily learned and understood. Some typical examples are charts, graphs, images, and movies</p>
+</section>
+
+  <!-- Testimonials -->
+
+  <section id="working">
+    <h1>Steps in Real time data visualization</h1>
+    <h3>1. Capture streaming data</h3>
+    <p>Live streaming data is captured using scrapers, collectors, agents, listeners, and is stored in a database. This database is usually a NoSQL database like Cassandra, MongoDB, or sometimes even Hadoop’s Hive.</p>
+    <h3>2. Process the data</h3>
+    <p>The streaming data is processed in many ways like splitting, merging, doing calculations, and connecting it with outside data sources</p>
+    <h3>3. The processed data is read by the visualization component</h3>
+    <p>The processed data is stored in a structured format, like JSON or XML, in the NoSQL database. From there, it’s read by the visualization component</p>
+  <h3>4. Visualize the data
+  </h3>
+  <p>The visualization component then reads the data from the structured data file (JSON/XML), and draws a chart, gauge, or other visualization in the reporting interface. The frequency at which processed data is drawn on client-side is called the refresh interval. In some applications, like stock trading applications, along with rendering a chart, there are pre-set rules that are triggered based on the streaming data.</p>
+
+
+
+  </section>
+
+
+
+
+  <section id="libraries">
+  <div class='bokeh'> <h1>Some important libraries  used in python for real time visualization</h1>
+   <img  class="bokeh-image"src="https://miro.medium.com/max/300/0*7A8fKKtwo9L8wpNk" alt="bokeh image">
+   <h3>Bokeh</h3>
+   <p>Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets. Bokeh can help anyone who would like to quickly and easily make interactive plots, dashboards, and data applications. <a href="https://docs.bokeh.org/en/latest/index.html">for more</a></p>
+  </div>
+  <div class="pandas">
+
+<img class="pandas-image"src="https://static.javatpoint.com/tutorial/pandas/images/python-pandas.png" alt="pandas image"> 
+<h3>Pandas</h3>
+<p>Pandas is a high-level data manipulation tool developed by Wes McKinney. It is built on the Numpy package and its key data structure is called the DataFrame. DataFrames allow you to store and manipulate tabular data in rows of observations and columns of variables. <a href="https://pandas.pydata.org/">for more</a></p>
+</div>
+<h3>BeautifulSoup</h3>
+<p>Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work. <a href="https://pypi.org/project/beautifulsoup4/">for more</a></p>
+<h3>HTML5lib</h3>
+<p> A pure-python library for parsing HTML. It is designed to conform to the WHATWG HTML specification, as is implemented by all major web browsers.</p>
+<h3>lxml</h3>
+<p>Since html5lib is a pure-python library, it has an external Python Dependency while lxml being a binding for certain C libraries has external C dependency.</p>
+</section>
+
+
+  
+  <footer id="footer">
+    <a href=""><i class="fab fa-twitter contact"></i></a>
+    <a href=""><i class="fab fa-facebook-f contact"></i></a>
+    <a href=""><i class="fab fa-instagram contact"></i></a>
+    <a href=""><i class="fas fa-envelope contact"></i></a>
+
+    <p>© Copyright 2020</p>
+
+  </footer>
+
+
+   
+
+
+  <!-- Footer -->
+
+
+
+
+</body>
+
+</html>
